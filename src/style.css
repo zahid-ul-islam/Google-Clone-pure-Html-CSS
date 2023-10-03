@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    color: #4e90fa;
+    font-family: Arial, Helvetica, sans-serif;
+   
+    
+}
+.nav{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 14px;
+    padding: 14px;
+    width: 100%;
+    height: 60px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+.siBtn{
+    padding: 8px 16px;
+    background-color:#4285f4;
+    border:none;
+    outline: none;
+    border-radius: 2px;
+    color: white;
+    cursor: pointer;
+
+}
+.siBtn:hover{
+    background-color:#5c97f6;
+}
+
+.bar{
+    padding-top: 7px;
+    padding-right: 8px;
+    padding-bottom: 3px ;
+    padding-left: 7px ;
+    border-radius: 50%;
+    margin-top: 6px;
+}
+.bar:hover{
+    background-color: rgb(236, 236, 236);
+}
+.nav a{
+    text-decoration: none;
+    color: black;
+
+}
+.nav a:hover{
+    text-decoration:underline;
+}
+.hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 28px;
+}
+.mainIco{
+    display: flex;
+}
+.searchIcon{
+position: absolute;
+top:18px;
+left: 22px;
+}
+.micImgIcon{
+    position: absolute;
+    right: 22px;
+    top:14px;
+    display: flex;
+    gap: 20px;
+  
+}
+.pos{
+    position: relative;
+    padding-bottom: 20px;
+}
+.searchBar{
+   width: 600px; 
+   height: 50px;
+   border-radius: 30px;
+   border: 1px solid gainsboro;
+    cursor: pointer;
+    
+    padding: 12px 48px;
+    font-size: 18px;
+   
+}
+.searchBar:focus{
+    outline: none;
+}
+.google{
+    padding-bottom: 20px;
+}
+.pos2{
+    padding-bottom: 20px;
+}
+.pos2 button{
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    margin: 11px 4px;
+    padding: 8px 16px;
+    cursor: pointer;
+   
+}
+footer{
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+   
+    background-color: #f0f0f0;
+    color: #70757a;
+    
+   
+}
+.first ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+.second ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+footer .lastLine{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    font-size: 16px;
+    
+   
+    
+}
+.bd{
+    border-bottom: 1px solid #dadce0;
+    padding: 15px 30px;
+    font-size: 16px;
+    
+    
+}
+.lastLine ul li a {
+    text-decoration: none;
+    color: #70757a;
+    
+}
+.lastLine ul li a:hover{
+    text-decoration: underline;
+}
+
+
+
